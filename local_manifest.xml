@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+	<remote name="ShapeShiftOS-Devices" fetch="https://github.com/ShapeShiftOS-Devices" />
 
- 	<project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="ShapeShiftOS-Devices" revision="android_11"/>
-	<project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="ShapeShiftOS-Devices" revision="android_11" />
-	<project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="ShapeShiftOS-Devices" revision="android_11"/>
+ 	<project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="ShapeShiftOS-Devices" revision="android_11" clone-depth="1" />
+	<project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="ShapeShiftOS-Devices" revision="android_11" clone-depth="1" />
+	<project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="ShapeShiftOS-Devices" revision="android_11" clone-depth="1" />
 
 </manifest>
