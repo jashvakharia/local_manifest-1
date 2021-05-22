@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
- 	<project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="lighthouse-os-devices" revision="raft" clone-depth="1" />
-	<project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="lighthouse-os-devices" revision="raft" clone-depth="1" />
-	<project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="lighthouse-os-devices" revision="raft" clone-depth="1" />
+ 	<project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="PotatoDevices" revision="dumaloo" clone-depth="1" />
+	<project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="PotatoDevices" revision="dumaloo" clone-depth="1" />
+	<project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="PotatoDevices" revision="dumaloo" clone-depth="1" />
 
 </manifest>
